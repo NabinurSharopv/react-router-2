@@ -1,0 +1,23 @@
+﻿@import "tailwindcss";
+
+:root {
+  --uzum-purple: #6C2BD9;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Fallback color utilities (in case Tailwind utilities are not generated) */
+.text-uzum { color: var(--uzum-purple) !important; }
+.bg-uzum { background-color: var(--uzum-purple) !important; }
+.bg-uzum-light { background-color: rgba(108,43,217,0.06) !important; }
+.bg-uzum-dark { background-color: #5B1FB8 !important; }
+.btn-uzum { background-color: var(--uzum-purple); color: white; border: none; padding: .5rem 1rem; border-radius: .5rem; }
+.border-uzum { border-color: var(--uzum-purple) !important; }
+
+/* small helpers */
+.text-uzum-muted { color: rgba(108,43,217,0.8); }
+
